@@ -12,7 +12,7 @@ OctOLED is remote (WiFi on ESP8266) mini display (SSD1306 128x64 OLED) showing t
 ## Module Programming
 The code for the ESP8266 module I wrote in the Arduino IDE for which you will need to install the libraries:
 
- - [SP8266 board driver](https://github.com/esp8266/Arduino)
+ - [ESP8266 board driver](https://github.com/esp8266/Arduino)
  - [ESP8266-oled-ssd1306 library](https://github.com/ThingPulse/esp8266-oled-ssd1306)
 
 The ESP8266 driver is installed using the Library Manager in Arduino IDE, while the board driver requires Arduino IDE preferences to enter the http://arduino.esp8266.com/stable/package_esp8266com_index.json link in additional URLs for the Tile Manager and then use the Tile Manager. I choosed NodeMCU V1 as the board for the project (despite using V2) because V2 is not available and the profile for V1 uses the same processor as V2.
@@ -44,6 +44,9 @@ The cables can be pushed through the screw holes (before re-inserting the connec
 ![Idle](http://qba.wtf/ed05b5a90ab3/Image%2525202018-09-12%252520at%25252012.25.05%252520AM.png)
 
 *Status when idle*
+
+## Video in action
+You can see this project in action on [YouTube](https://www.youtube.com/watch?v=5jP-DI0TSRg)
 
 ## Other download
  - Housing STL model at [Thingiverse](https://www.thingiverse.com/thing:3095499)
